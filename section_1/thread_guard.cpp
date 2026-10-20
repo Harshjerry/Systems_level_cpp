@@ -13,7 +13,7 @@ private:
 
 public:
 
-    explicit thread_guard(std::thread& _t)
+    explicit thread_guard(thread& _t)
         : t(_t)
     {
     }
